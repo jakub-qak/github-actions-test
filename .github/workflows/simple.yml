@@ -10,7 +10,5 @@ jobs:
         run: echo "Hello World"
       - name: multiline script
         run: |
-          ruby -v
-          python -v
           node -v
           npm -v
