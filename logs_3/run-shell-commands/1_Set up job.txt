@@ -1,0 +1,31 @@
+2021-08-13T10:45:54.6744393Z Current runner version: '2.280.1'
+2021-08-13T10:45:54.6774132Z ##[group]Operating System
+2021-08-13T10:45:54.6775199Z Ubuntu
+2021-08-13T10:45:54.6775741Z 20.04.2
+2021-08-13T10:45:54.6776157Z LTS
+2021-08-13T10:45:54.6776663Z ##[endgroup]
+2021-08-13T10:45:54.6777215Z ##[group]Virtual Environment
+2021-08-13T10:45:54.6777915Z Environment: ubuntu-20.04
+2021-08-13T10:45:54.6778482Z Version: 20210810.1
+2021-08-13T10:45:54.6779553Z Included Software: https://github.com/actions/virtual-environments/blob/ubuntu20/20210810.1/images/linux/Ubuntu2004-README.md
+2021-08-13T10:45:54.6780939Z Image Release: https://github.com/actions/virtual-environments/releases/tag/ubuntu20%2F20210810.1
+2021-08-13T10:45:54.6781924Z ##[endgroup]
+2021-08-13T10:45:54.6782586Z ##[group]Virtual Environment Provisioner
+2021-08-13T10:45:54.6783252Z 1.0.0.0-master-20210802-2
+2021-08-13T10:45:54.6783843Z ##[endgroup]
+2021-08-13T10:45:54.6785972Z ##[group]GITHUB_TOKEN Permissions
+2021-08-13T10:45:54.6787241Z Actions: write
+2021-08-13T10:45:54.6787972Z Checks: write
+2021-08-13T10:45:54.6788468Z Contents: write
+2021-08-13T10:45:54.6789061Z Deployments: write
+2021-08-13T10:45:54.6789607Z Discussions: write
+2021-08-13T10:45:54.6790164Z Issues: write
+2021-08-13T10:45:54.6790671Z Metadata: read
+2021-08-13T10:45:54.6791232Z Packages: write
+2021-08-13T10:45:54.6791970Z PullRequests: write
+2021-08-13T10:45:54.6792696Z RepositoryProjects: write
+2021-08-13T10:45:54.6793388Z SecurityEvents: write
+2021-08-13T10:45:54.6794052Z Statuses: write
+2021-08-13T10:45:54.6794690Z ##[endgroup]
+2021-08-13T10:45:54.6798041Z Prepare workflow directory
+2021-08-13T10:45:54.7461625Z Prepare all required actions

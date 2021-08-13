@@ -1,0 +1,40 @@
+2021-08-13T10:45:45.6314450Z Found online and idle hosted runner(s) in the current repository's organization account that matches the required labels: 'ubuntu-latest'
+2021-08-13T10:45:45.6314519Z Waiting for a hosted runner in 'organization' to pick this job...
+2021-08-13T10:45:54.6744945Z Current runner version: '2.280.1'
+2021-08-13T10:45:54.6774174Z ##[group]Operating System
+2021-08-13T10:45:54.6775210Z Ubuntu
+2021-08-13T10:45:54.6775747Z 20.04.2
+2021-08-13T10:45:54.6776163Z LTS
+2021-08-13T10:45:54.6776669Z ##[endgroup]
+2021-08-13T10:45:54.6777222Z ##[group]Virtual Environment
+2021-08-13T10:45:54.6777922Z Environment: ubuntu-20.04
+2021-08-13T10:45:54.6778489Z Version: 20210810.1
+2021-08-13T10:45:54.6779562Z Included Software: https://github.com/actions/virtual-environments/blob/ubuntu20/20210810.1/images/linux/Ubuntu2004-README.md
+2021-08-13T10:45:54.6780947Z Image Release: https://github.com/actions/virtual-environments/releases/tag/ubuntu20%2F20210810.1
+2021-08-13T10:45:54.6781932Z ##[endgroup]
+2021-08-13T10:45:54.6782592Z ##[group]Virtual Environment Provisioner
+2021-08-13T10:45:54.6783259Z 1.0.0.0-master-20210802-2
+2021-08-13T10:45:54.6783850Z ##[endgroup]
+2021-08-13T10:45:54.6785983Z ##[group]GITHUB_TOKEN Permissions
+2021-08-13T10:45:54.6787382Z Actions: write
+2021-08-13T10:45:54.6787978Z Checks: write
+2021-08-13T10:45:54.6788474Z Contents: write
+2021-08-13T10:45:54.6789067Z Deployments: write
+2021-08-13T10:45:54.6789613Z Discussions: write
+2021-08-13T10:45:54.6790170Z Issues: write
+2021-08-13T10:45:54.6790678Z Metadata: read
+2021-08-13T10:45:54.6791238Z Packages: write
+2021-08-13T10:45:54.6791977Z PullRequests: write
+2021-08-13T10:45:54.6792702Z RepositoryProjects: write
+2021-08-13T10:45:54.6793395Z SecurityEvents: write
+2021-08-13T10:45:54.6794060Z Statuses: write
+2021-08-13T10:45:54.6794698Z ##[endgroup]
+2021-08-13T10:45:54.6798073Z Prepare workflow directory
+2021-08-13T10:45:54.7461659Z Prepare all required actions
+2021-08-13T10:45:54.8295902Z ##[group]Run eccho "Hello World"
+2021-08-13T10:45:54.8296653Z [36;1meccho "Hello World"[0m
+2021-08-13T10:45:54.8923371Z shell: /usr/bin/bash -e {0}
+2021-08-13T10:45:54.8924100Z ##[endgroup]
+2021-08-13T10:45:55.6216663Z /home/runner/work/_temp/0d542d48-0f7f-42ff-ab54-41fbf19882ea.sh: line 1: eccho: command not found
+2021-08-13T10:45:55.6231793Z ##[error]Process completed with exit code 127.
+2021-08-13T10:45:55.6282885Z Cleaning up orphan processes

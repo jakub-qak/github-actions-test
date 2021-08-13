@@ -1,0 +1,6 @@
+2021-08-13T10:45:54.8295866Z ##[group]Run eccho "Hello World"
+2021-08-13T10:45:54.8296644Z [36;1meccho "Hello World"[0m
+2021-08-13T10:45:54.8923344Z shell: /usr/bin/bash -e {0}
+2021-08-13T10:45:54.8924092Z ##[endgroup]
+2021-08-13T10:45:55.6216597Z /home/runner/work/_temp/0d542d48-0f7f-42ff-ab54-41fbf19882ea.sh: line 1: eccho: command not found
+2021-08-13T10:45:55.6231741Z ##[error]Process completed with exit code 127.
