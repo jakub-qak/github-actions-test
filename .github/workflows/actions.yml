@@ -8,7 +8,7 @@ jobs:
     steps:
       - name: List Files
         run: |
-          pdw
+          pwd
           ls
       - name: Sinple JS Action
         id: greet
