@@ -4,7 +4,7 @@ address: "my: Zakopane"
 active: true
 key:
     key: value
-    key2: 23
+    key2: 233
     key3:
         key: value
         key2: value
