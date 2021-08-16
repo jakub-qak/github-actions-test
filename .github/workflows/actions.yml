@@ -1,6 +1,6 @@
 name: Actions Workflow
 
-on:
+on: [pull_request]
   # push:
   #   branches:
   #     - main
@@ -14,7 +14,7 @@ on:
   #   types: [build]
   # schedule:
   #   - cron: "1 * * * *"
-  push:
+  # push:
   # pull_request:
   #   types: [closed, assigned, opened, reopened]
 
