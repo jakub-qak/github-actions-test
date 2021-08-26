@@ -31,3 +31,9 @@ jobs:
           node -v
           echo "IS_UBUNTU_8: ${IS_UBUNTU_8}"
       - uses: jk/setup-node@v1
+      - name: Log2 node version after change
+        run: |
+          node -v
+          echo "IS_UBUNTU_8: ${IS_UBUNTU_8}"
+      - uses: jk/setup-node@v1
+      
