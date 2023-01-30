@@ -20,8 +20,8 @@ jobs:
         node-version: ${{ env.NODE_VERSION }}
         cache-dir: ~/.npm
 
-    - name: Generate lockfile
-      run: npm install
+    - name: Navigate to repository root
+      run: cd $(echo "$GITHUB_WORKSPACE" | awk -F '/' '{print $NF}')
 
     - name: Install dependencies
       run: npm ci
