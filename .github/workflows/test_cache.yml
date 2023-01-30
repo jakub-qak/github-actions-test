@@ -11,9 +11,25 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
-    - uses: actions/setup-node@v3
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v2
       with:
-        node-version: 16
-    - run: npm ci
-    - run: npm test
+        node-version: ${{ env.NODE_VERSION }}
+        cache-dir: ~/.npm
+
+    - name: Navigate to repository root
+      run: cd $(echo "$GITHUB_WORKSPACE" | awk -F '/' '{print $NF}')
+
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Test npm cache
+      run: |
+        echo "Checking cache directory..."
+        ls ~/.npm
+
+        echo "Checking cache status..."
+        npm cache verify
